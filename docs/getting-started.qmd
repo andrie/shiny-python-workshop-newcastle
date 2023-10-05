@@ -2,6 +2,7 @@
 title: "Getting started"
 code-annotations: hover
 ---
+
 ```{python}
 # | echo: false
 import os
@@ -27,6 +28,7 @@ To do this, you can call `shiny create .` in a project folder, or open up `apps/
 This is the simplest possible Shiny application with one input and one output. 
 
 #### 
+
 ```{python}
 # | echo: false
 # | output: asis

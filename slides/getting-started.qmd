@@ -28,40 +28,6 @@ from helpers import problem_tabs, include_shiny_folder
 
 ```
 
-# Housekeeping 
-
-## Workshop info
-::: {.nonincremental}
-- WiFi:
-  - Network: **Posit Conf 2023**
-  - Password: **conf2023**
-- There are gender-neutral bathrooms located among the Grand Suite Bathrooms.
-- There are two meditation/prayer rooms: Grand Suite 2A and Grand Suite 2B. Open Sunday - Tuesday 7:30 a.m. - 7:00 p.m., Wednesday 8:00 a.m. - 6:00 p.m.
-- The lactation room is located in Grand Suite 1. Open Sunday - Tuesday 7:30 a.m. - 7:00 p.m., Wednesday 8:00 a.m. - 6:00 p.m.
-- Don't photograph people with red lanyards.
-- The Code of Conduct and COVID policies can be found at https://posit.co/code-of-conduct/.
-:::
-## Outline for the day
-
-| Start | End   | Title                         |
-|-------|-------|-------------------------------|
-| 9:00  | 10:30 | Getting started with Shiny    |
-| 10:30 | 11:00 | Coffee break                  |
-| 11:00 | 12:30 | Reactivity                    |
-| 12:30 | 1:30  | Lunch                         |
-| 1:30  | 3:00  | UI Customization              |
-| 3:00  | 3:30  | Coffee break                  |
-| 3:30  | 5:00  | Workflow best practices / Q&A |
-
-```{=html}
-<style>
-#outline-for-the-day table {
-  margin: 0;
-  margin-top: 2em;
-}
-</style>
-```
-
 ## Goals of Session 1
 
 1) Understand the mechanics of a Shiny app (what to do, not why you do it)

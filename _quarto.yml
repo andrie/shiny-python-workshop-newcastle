@@ -2,12 +2,18 @@ project:
   type: website
 
 website:
-  title: "Shiny for Python Workshop"
+  title: "Shiny for Python Workshop / Newcastle 2023"
   sidebar:
     contents:
+      - href: index.qmd
+        text: Home
+      - docs/pre-requisites.qmd 
+      - href: docs/housekeeping.qmd
+        text: Housekeeping
       - section: "Getting Started"
         contents:
-          - slides/getting-started.qmd
+          - href: slides/getting-started.qmd
+            text: Slides
           - section: "Exercises"
             contents: 
             - exercises/1-hello-world.qmd
@@ -16,7 +22,8 @@ website:
             - exercises/4-add-plot.qmd
       - section: "Reactivity"
         contents:
-          - slides/reactivity.qmd
+          - href: slides/reactivity.qmd
+            text: Slides
           - section: "Exercises"
             contents: 
             - exercises/5-reactivity.qmd
@@ -24,7 +31,8 @@ website:
             - exercises/7-reactive-effects.qmd
       - section: "UI Customization"
         contents:
-          - slides/ui-customization.qmd
+          - href: slides/ui-customization.qmd
+            text: Slides
           - section: "Exercises"
             contents: 
             - exercises/8-navsets.qmd
@@ -34,7 +42,8 @@ website:
             - exercises/12-dynamic-ui.qmd
       - section: "Best practices"
         contents:
-          - slides/workflow-best-practices.qmd
+          - href: slides/workflow-best-practices.qmd
+            text: Slides
           - section: "Exercises"
             contents: 
             - exercises/13-ui-functions.qmd
@@ -42,8 +51,8 @@ website:
   navbar:
     tools: 
       - icon: github
-        href: https://github.com/posit-dev/shiny-python-workshop-2023
-      - icon: fa-dicord
+        href: https://andrie.github.io/shiny-python-workshop-newcastle/
+      - icon: discord
         href: https://discord.gg/AQVJzG2bnN
     left:
       - href: index.qmd
