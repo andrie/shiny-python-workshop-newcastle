@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -368,7 +368,7 @@ Exercise
 </div>
 </div>
 </div>
-<pre class="shinylive-python"><code>#| standalone: true
+<pre class="shinylive-python" data-engine="python"><code>#| standalone: true
 #| components: [viewer]
 #| layout: horizontal
 #| viewerHeight: 800
@@ -488,7 +488,7 @@ def filter_weather(data, cities, dates):
 
 app = App(app_ui, server)
 
-## file: plots.py
+## file: apps/problem-sets/5-workflows/5.3-extract-function\plots.py
 import pandas as pd
 from plotnine import (
     ggplot,
@@ -524,7 +524,7 @@ def daily_error(plot_df: pd.DataFrame, alpha: float) -&gt; ggplot:
     )
     return out
 
-## file: weather.csv
+## file: apps/problem-sets/5-workflows/5.3-extract-function\weather.csv
 date,city,state,observed_temp,forecast_temp
 2022-01-02,ALBANY,NY,35,39
 2022-01-02,ALBANY,NY,35,40
@@ -2465,7 +2465,7 @@ Exercise
 </div>
 </div>
 </div>
-<pre class="shinylive-python"><code>#| standalone: true
+<pre class="shinylive-python" data-engine="python"><code>#| standalone: true
 #| components: [editor, viewer]
 #| layout: horizontal
 #| viewerHeight: 800
@@ -2576,7 +2576,7 @@ def server(input, output, session):
 
 app = App(app_ui, server)
 
-## file: plots.py
+## file: apps/problem-sets/5-workflows/5.3-extract-function\plots.py
 import pandas as pd
 from plotnine import (
     ggplot,
@@ -2612,7 +2612,7 @@ def daily_error(plot_df: pd.DataFrame, alpha: float) -&gt; ggplot:
     )
     return out
 
-## file: weather.csv
+## file: apps/problem-sets/5-workflows/5.3-extract-function\weather.csv
 date,city,state,observed_temp,forecast_temp
 2022-01-02,ALBANY,NY,35,39
 2022-01-02,ALBANY,NY,35,40
@@ -4553,7 +4553,7 @@ Exercise
 </div>
 </div>
 </div>
-<pre class="shinylive-python"><code>#| standalone: true
+<pre class="shinylive-python" data-engine="python"><code>#| standalone: true
 #| components: [editor, viewer]
 #| layout: horizontal
 #| viewerHeight: 800
@@ -4673,7 +4673,7 @@ def filter_weather(data, cities, dates):
 
 app = App(app_ui, server)
 
-## file: plots.py
+## file: apps/problem-sets/5-workflows/5.3-extract-function\plots.py
 import pandas as pd
 from plotnine import (
     ggplot,
@@ -4709,7 +4709,7 @@ def daily_error(plot_df: pd.DataFrame, alpha: float) -&gt; ggplot:
     )
     return out
 
-## file: weather.csv
+## file: apps/problem-sets/5-workflows/5.3-extract-function\weather.csv
 date,city,state,observed_temp,forecast_temp
 2022-01-02,ALBANY,NY,35,39
 2022-01-02,ALBANY,NY,35,40

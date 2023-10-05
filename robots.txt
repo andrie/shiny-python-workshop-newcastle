@@ -1,1 +1,0 @@
-Sitemap: https://github.com/andrie/shiny-python-workshop-newcastle/sitemap.xml
