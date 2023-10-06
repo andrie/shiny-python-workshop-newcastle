@@ -1,107 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/ui-customization.html</loc>
-    <lastmod>2023-10-05T17:46:49.592Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/slides/workflow-best-practices.html</loc>
+    <lastmod>2023-10-06T13:59:12.948Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/reactivity.html</loc>
-    <lastmod>2023-10-05T17:46:44.032Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/slides/reactivity.html</loc>
+    <lastmod>2023-10-06T13:58:51.713Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/reactive-side-effects.html</loc>
-    <lastmod>2023-10-05T17:46:33.780Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/index.html</loc>
+    <lastmod>2023-10-06T13:58:30.590Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/index.html</loc>
-    <lastmod>2023-10-05T17:46:19.692Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/9-cards.html</loc>
+    <lastmod>2023-10-06T13:58:23.530Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/10-layout.html</loc>
-    <lastmod>2023-10-05T17:46:14.040Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/7-reactive-effects.html</loc>
+    <lastmod>2023-10-06T13:58:00.175Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/5-reactivity.html</loc>
-    <lastmod>2023-10-05T17:45:59.756Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/5-reactivity.html</loc>
+    <lastmod>2023-10-06T13:57:41.501Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/2-debug.html</loc>
-    <lastmod>2023-10-05T17:45:45.524Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/3-add-filter.html</loc>
+    <lastmod>2023-10-06T13:57:22.355Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/6-reactive-event.html</loc>
-    <lastmod>2023-10-05T17:45:24.664Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/14-extract-functions.html</loc>
+    <lastmod>2023-10-06T13:56:46.092Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/3-add-filter.html</loc>
-    <lastmod>2023-10-05T17:45:12.396Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/12-dynamic-ui.html</loc>
+    <lastmod>2023-10-06T13:56:20.599Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/1-hello-world.html</loc>
-    <lastmod>2023-10-05T17:44:54.676Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/10-layout.html</loc>
+    <lastmod>2023-10-06T13:55:54.872Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/9-cards.html</loc>
-    <lastmod>2023-10-05T17:44:42.268Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/docs/references.html</loc>
+    <lastmod>2023-10-06T13:55:31.381Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/reactivity.html</loc>
-    <lastmod>2023-10-05T17:44:24.716Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/docs/housekeeping.html</loc>
+    <lastmod>2023-10-06T13:55:24.243Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/getting-started.html</loc>
-    <lastmod>2023-10-05T17:44:13.116Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/docs/bonus.html</loc>
+    <lastmod>2023-10-06T13:55:23.352Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/import-helpers.html</loc>
-    <lastmod>2023-10-05T17:44:00.429Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/docs/course.html</loc>
+    <lastmod>2023-10-06T13:55:23.785Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/workflow-best-practices.html</loc>
-    <lastmod>2023-10-05T17:44:17.704Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/docs/pre-requisites.html</loc>
+    <lastmod>2023-10-06T13:55:31.014Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/ui-customization.html</loc>
-    <lastmod>2023-10-05T17:44:34.412Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/1-hello-world.html</loc>
+    <lastmod>2023-10-06T13:55:40.842Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/14-extract-functions.html</loc>
-    <lastmod>2023-10-05T17:44:49.780Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/11-value-boxes.html</loc>
+    <lastmod>2023-10-06T13:56:06.625Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/11-value-boxes.html</loc>
-    <lastmod>2023-10-05T17:45:02.260Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/13-ui-functions.html</loc>
+    <lastmod>2023-10-06T13:56:34.538Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/8-navsets.html</loc>
-    <lastmod>2023-10-05T17:45:19.864Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/2-debug.html</loc>
+    <lastmod>2023-10-06T13:57:05.669Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/13-ui-functions.html</loc>
-    <lastmod>2023-10-05T17:45:33.784Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/4-add-plot.html</loc>
+    <lastmod>2023-10-06T13:57:31.933Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/12-dynamic-ui.html</loc>
-    <lastmod>2023-10-05T17:45:54.632Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/6-reactive-event.html</loc>
+    <lastmod>2023-10-06T13:57:50.696Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/7-reactive-effects.html</loc>
-    <lastmod>2023-10-05T17:46:04.852Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/exercises/8-navsets.html</loc>
+    <lastmod>2023-10-06T13:58:11.857Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/4-add-plot.html</loc>
-    <lastmod>2023-10-05T17:46:19.360Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/import-helpers.html</loc>
+    <lastmod>2023-10-06T13:58:30.201Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/getting-started.html</loc>
-    <lastmod>2023-10-05T17:46:27.512Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/slides/getting-started.html</loc>
+    <lastmod>2023-10-06T13:58:39.327Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/pre-requisites.html</loc>
-    <lastmod>2023-10-05T17:46:37.272Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/housekeeping.html</loc>
-    <lastmod>2023-10-05T17:46:44.364Z</lastmod>
+    <loc>https://andrie.github.io/shiny-python-workshop-newcastle/slides/ui-customization.html</loc>
+    <lastmod>2023-10-06T13:59:06.031Z</lastmod>
   </url>
 </urlset>
