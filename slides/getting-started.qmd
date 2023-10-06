@@ -1,13 +1,12 @@
 ---
 title: "Getting Started"
-author: "Gordon Shotwell & Joe Cheng"
 title-slide-attributes: 
-  data-background-color: black
-  data-background-image:  images/toc-people-dark.svg
-  data-background-size: contain
+  data-background-image:  images/shiny-for-python-newcastle.jpg
+  data-background-position: bottom left
+  data-background-size: cover
 format:
   positconfslides-revealjs: 
-    incremental: true
+    incremental: false
     chalkboard: true
     slide-number: c/t
     code-copy: true
@@ -19,6 +18,8 @@ format:
     filters:
       - positconfslides
 ---
+
+
 ```{python}
 # | echo: false
 import os
@@ -77,6 +78,7 @@ include_shiny_folder(
 - Efficient
 
 ## Why Shiny for Python?
+
 - Shiny is designed to take you from prototype to production
 - Easy enough to use for prototypes
 - Efficient enough to handle complexity
@@ -84,6 +86,7 @@ include_shiny_folder(
 - You don't need to throw away your Shiny apps
 
 ## Anatomy of a Shiny App
+
 To make a Shiny app work you need to do three things:
 
 1) Add inputs and outputs to the UI

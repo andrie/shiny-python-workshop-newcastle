@@ -1,10 +1,9 @@
 ---
 title: "Reactivity"
-author: "Gordon Shotwell & Joe Cheng"
 title-slide-attributes: 
-  data-background-color: black
-  data-background-image:  images/toc-people-dark.svg
-  data-background-size: contain
+  data-background-image:  images/shiny-for-python-newcastle.jpg
+  data-background-position: bottom left
+  data-background-size: cover
 format:
   positconfslides-revealjs: 
     incremental: true

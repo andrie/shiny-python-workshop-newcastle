@@ -3,32 +3,60 @@ project:
 
 website:
   title: "Shiny for Python Workshop / Newcastle 2023"
+  navbar:
+    logo: https://d33wubrfki0l68.cloudfront.net/71003073848110093780ea9a1c721439ad6b64f3/655ba/shiny-for-python.svg
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: Pre-requisites
+        file: docs/pre-requisites.qmd
+
+      - text: "Course material"
+        file: docs/course.qmd
+
+      - text: Bonus material
+        file: docs/bonus.qmd
+      - text: References
+        file: docs/references.qmd
+    tools: 
+      - icon: github
+        href: https://andrie.github.io/shiny-python-workshop-newcastle/
+      - icon: discord
+        href: https://discord.gg/AQVJzG2bnN
+
   sidebar:
-    contents:
-      - href: index.qmd
-        text: Home
-      - docs/pre-requisites.qmd 
-      - href: docs/housekeeping.qmd
-        text: Housekeeping
-      - section: "Getting Started"
-        contents:
-          - href: slides/getting-started.qmd
-            text: Slides
-          - section: "Exercises"
-            contents: 
-            - exercises/1-hello-world.qmd
-            - exercises/2-debug.qmd
-            - exercises/3-add-filter.qmd
-            - exercises/4-add-plot.qmd
-      - section: "Reactivity"
-        contents:
-          - href: slides/reactivity.qmd
-            text: Slides
-          - section: "Exercises"
-            contents: 
-            - exercises/5-reactivity.qmd
-            - exercises/6-reactive-event.qmd
-            - exercises/7-reactive-effects.qmd
+      # - href: index.qmd
+      #   text: Home
+      # - docs/pre-requisites.qmd 
+      # - href: docs/housekeeping.qmd
+      #   text: Housekeeping
+    - title: "Course material"
+      contents:
+        - docs/course.qmd
+        - section: "Getting Started"
+          contents:
+            - href: slides/getting-started.qmd
+              text: Slides
+            - section: "Exercises"
+              contents: 
+              - exercises/1-hello-world.qmd
+              - exercises/2-debug.qmd
+              - exercises/3-add-filter.qmd
+              - exercises/4-add-plot.qmd
+        - section: "Reactivity"
+          contents:
+            - href: slides/reactivity.qmd
+              text: Slides
+            - section: "Exercises"
+              contents: 
+              - exercises/5-reactivity.qmd
+              - exercises/6-reactive-event.qmd
+              - exercises/7-reactive-effects.qmd
+
+    - title: "Bonus Material"
+      contents:
+      - docs/bonus.qmd
       - section: "UI Customization"
         contents:
           - href: slides/ui-customization.qmd
@@ -48,22 +76,18 @@ website:
             contents: 
             - exercises/13-ui-functions.qmd
             - exercises/14-extract-functions.qmd
-  navbar:
-    tools: 
-      - icon: github
-        href: https://andrie.github.io/shiny-python-workshop-newcastle/
-      - icon: discord
-        href: https://discord.gg/AQVJzG2bnN
-    left:
-      - href: index.qmd
-        text: Home
+
+      # - title: References
+      #   contents:
+      #     - docs/references.qmd
+
 
 filters:
   - shinylive
 
 format:
   html:
-    theme: cosmo
+    theme: materia
     css: styles.css
     toc: true
 
