@@ -11,7 +11,7 @@ from helpers import problem_tabs
 
 ```
 
-# Exercise 1.0 - Hello World
+## Exercise 1.0 - Hello World
 
 ```{python}
 # | echo: false

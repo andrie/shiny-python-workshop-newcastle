@@ -1,19 +1,26 @@
-
-## Introduction
+## Welcome
 
 This is the workshop website for the Shiny for Python Workshop at [Shiny in Production](https://shiny-in-production.jumpingrivers.com/).
 
 While most of these materials are designed to be used in conjunction with the workshop, they also stand alone as an educational resource.
 
+![](slides/images\shiny-for-python-newcastle.jpg){fig-alt="Stock photo image of the top section of the Newcastle footbridge against blue sky, with logos for both Shiny and Python" fig-align="center" width="500"}
 
 ## Background
 
-This workshop is aimed at people who are somewhat familiar with doing data analysis in Python, but do not have much of a background in Shiny. 
+This workshop is aimed at people who are somewhat familiar with doing data analysis in Python, but do not have much of a background in Shiny.
 
-If you are brand new to Python we recommend spending a bit of time familiarizing yourself with the following topics before the workshop: 
+If you are brand new to Python we recommend spending a bit of time familiarizing yourself with the following topics before the workshop:
 
-- How to install Python packages in a virtual environment 
-- How to do basic data manipulation with `pandas` or `polars`
-- How to draw plots 
-- How to clone a repository with git
+-   How to install Python packages in a virtual environment
+-   How to do basic data manipulation with `pandas` or `polars`
+-   How to draw plots
+-   How to clone a repository with git
 
+## Pre-requisites
+
+Please ensure you have followed the instructions in the [pre-requisites section](docs/pre-requisites.qmd)
+
+## Acknowledgements
+
+This material has been adjusted for a workshop at Shiny in Production, 2023. These adjustments are very minor, and the original work was done by Gordon Shotwell and Joe Cheng, for the workshop they taught at Posit::conf(2023).

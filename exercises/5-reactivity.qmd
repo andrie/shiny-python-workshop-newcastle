@@ -3,7 +3,7 @@ title: "Reactive calc"
 ---
 
 ```{python}
-# | echo: false
+## | echo: false
 import os
 
 os.chdir("..")
@@ -16,15 +16,15 @@ def reactive_problems(file):
 
 ```
 
-# Exercise 2.2
+## Exercise 2.2
 
 ```{python}
-# | echo: false
-# | output: asis
+## | echo: false
+## | output: asis
 
 reactive_problems("2.2-reactive-calc")
 ```
 
-# Exercise 2.3
+## Exercise 2.3
 
 Draw the reactive graph for the above application
