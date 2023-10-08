@@ -1,0 +1,7 @@
+shiny 
+shinylive 
+pandas
+plotnine
+seaborn
+quarto
+jupyter
