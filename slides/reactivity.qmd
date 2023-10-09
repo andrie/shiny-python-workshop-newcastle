@@ -6,7 +6,7 @@ title-slide-attributes:
   data-background-size: cover
 format:
   positconfslides-revealjs: 
-    incremental: true
+    incremental: false
     chalkboard: true
     slide-number: c/t
     code-copy: true
@@ -17,7 +17,12 @@ format:
     filters:
       - positconfslides
     css: styles.css
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  heading: Agenda
 ---
+
 ```{python}
 # | echo: false
 import os
@@ -40,7 +45,7 @@ include_shiny_folder(
     file_name="app-solution.py",
     exclusions=["app.py"],
     components="viewer",
-    viewer_height=500,
+    viewer_height=650,
 )
 ```
 
@@ -51,8 +56,10 @@ include_shiny_folder(
 
 ## How do other frameworks work?
 
-- Streamlit: re-render everything everywhere all the time
-- Dash/Panel/Gradio: Define callback functions
+- Streamlit
+  - re-render everything everywhere all the time
+- Dash/Panel/Gradio
+  - Define callback functions
 
 ## Event driven programming
 
@@ -70,7 +77,8 @@ include_shiny_folder(
 ## Does that really work?
 
 - You're not wrong to find this suspicious
-- "Does Shiny infer relationships by analyizing the source code?" No--lots of ways that would break down!
+- "Does Shiny infer relationships by analyizing the source code?"
+  - No -- lots of ways that would break down!
 - For this to work, the inference has to be 100% reliable
 
 ## It really works
@@ -78,7 +86,7 @@ include_shiny_folder(
 - We have 10 years of real-world experience with this form of reactivity
 - The underlying mechanism is simple, reliable, and intuitive
 - Not static analysis, but rather, runtime tracing
-- Originally inspired by Meteor.js
+- Originally inspired by `Meteor.js`
 
 ## Outputs and recipes
 
@@ -124,6 +132,7 @@ app = App(app_ui, server)
 
 
 ## Reactive graph
+
 
 ```{mermaid}
 flowchart TD

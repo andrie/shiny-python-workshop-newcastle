@@ -18,6 +18,10 @@ format:
     filters:
       - positconfslides
     css: styles.css
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  heading: Agenda
 ---
 
 

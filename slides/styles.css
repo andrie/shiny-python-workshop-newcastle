@@ -9,3 +9,15 @@
 .reveal pre.sourceCode code {
     max-height: 650px;
 }
+
+
+svg[class^="mermaid"] {
+  transform: scale(1.8);
+  height: 500px;
+  /* overflow:hidden;*/
+  /* height: 80%; */
+}
+
+.reveal svg {
+    overflow-y: hidden;
+}
