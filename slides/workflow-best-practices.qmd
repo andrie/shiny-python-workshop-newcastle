@@ -17,7 +17,9 @@ format:
     height: "900"
     filters:
       - positconfslides
+    css: styles.css
 ---
+
 ```{python}
 # | echo: false
 import os

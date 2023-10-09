@@ -14,9 +14,9 @@ format:
     highlight-style: a11y
     width: "1600"
     height: "900"
-    css: "styles.css"
     filters:
       - positconfslides
+    css: styles.css
 ---
 ```{python}
 # | echo: false
