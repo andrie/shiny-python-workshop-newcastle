@@ -2,6 +2,8 @@
 title: Course material
 ---
 
+This course covers an introduction to basic concepts for Shiny for Python.
+
 ## Getting started
 
 - Slides
@@ -12,3 +14,8 @@ title: Course material
 
 - Slides
 - Exercises
+
+
+## Bonus material
+
+For extra material that we won't cover in this workshop, please see [Bonus material](../docs/bonus.qmd).

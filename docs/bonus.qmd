@@ -2,4 +2,8 @@
 title: Bonus Material
 ---
 
-## To be completed
+This section contains bonus material that is not part of the main course.
+
+These pages and exercises were part of the original one-day course.
+
+For the core material, see [Course material](../docs/course.qmd)
