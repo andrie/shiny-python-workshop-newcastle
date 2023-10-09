@@ -407,25 +407,25 @@
 <section class="slide level2">
 <h2>Goals</h2>
 <ul>
-<li class="fragment">So far we’ve learned:
+<li>So far we’ve learned:
 <ul>
-<li class="fragment">How to build an app</li>
-<li class="fragment">How Shiny renders things</li>
+<li>How to build an app</li>
+<li>How Shiny renders things</li>
 </ul></li>
-<li class="fragment">This session is all about how they look</li>
-<li class="fragment">We’re going to cover a lot of UI elements quickly
+<li>This session is all about how they look</li>
+<li>We’re going to cover a lot of UI elements quickly
 <ul>
-<li class="fragment">Just know that these exist</li>
-<li class="fragment">Don’t worry too much about remembering how they work</li>
+<li>Just know that these exist</li>
+<li>Don’t worry too much about remembering how they work</li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 <h2>Why care about UI design?</h2>
 <ul>
-<li class="fragment">It’s what your stakeholders care about!</li>
-<li class="fragment">Good UI design simplifies your application code</li>
-<li class="fragment">Intuitive UIs mean fewer questions</li>
+<li>It’s what your stakeholders care about!</li>
+<li>Good UI design simplifies your application code</li>
+<li>Intuitive UIs mean fewer questions</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2546,21 +2546,21 @@
 <span id="cb2-13"><a href="#cb2-13"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <ul>
-<li class="fragment">The UI is separate from the server</li>
-<li class="fragment">UI is made up of pure functions
+<li>The UI is separate from the server</li>
+<li>UI is made up of pure functions
 <ul>
-<li class="fragment">You can break them into objects</li>
-<li class="fragment">You can create them with functions</li>
+<li>You can break them into objects</li>
+<li>You can create them with functions</li>
 </ul></li>
-<li class="fragment">Opinionated
+<li>Opinionated
 <ul>
-<li class="fragment">Your inputs get labels</li>
-<li class="fragment">Reasonable look and feel</li>
+<li>Your inputs get labels</li>
+<li>Reasonable look and feel</li>
 </ul></li>
-<li class="fragment">Customizable
+<li>Customizable
 <ul>
-<li class="fragment">Everything can be styled with CSS</li>
-<li class="fragment">If you know JavaScript, you can use JavaScript</li>
+<li>Everything can be styled with CSS</li>
+<li>If you know JavaScript, you can use JavaScript</li>
 </ul></li>
 </ul>
 </div>
@@ -2569,10 +2569,10 @@
 <section class="slide level2">
 <h2>Some nomenclature</h2>
 <ul>
-<li class="fragment"><strong>Container functions</strong>: organize <strong>child</strong> elements</li>
-<li class="fragment"><strong>Element functions</strong>: generate a UI object like input and outputs</li>
-<li class="fragment"><strong>Child</strong>: elements contained by a container function</li>
-<li class="fragment"><strong>Parent</strong>: the container one level up from a particular element or container</li>
+<li><strong>Container functions</strong>: organize <strong>child</strong> elements</li>
+<li><strong>Element functions</strong>: generate a UI object like input and outputs</li>
+<li><strong>Child</strong>: elements contained by a container function</li>
+<li><strong>Parent</strong>: the container one level up from a particular element or container</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2610,25 +2610,25 @@
 <section class="slide level2">
 <h2>Container functions</h2>
 <ul>
-<li class="fragment">Some layout functions take any child elements and lay them out in order
+<li>Some layout functions take any child elements and lay them out in order
 <ul>
-<li class="fragment"><code>ui.page_fluid</code></li>
-<li class="fragment"><code>ui.panel_sidebar</code></li>
-<li class="fragment"><code>ui.panel_main</code></li>
+<li><code>ui.page_fluid</code></li>
+<li><code>ui.panel_sidebar</code></li>
+<li><code>ui.panel_main</code></li>
 </ul></li>
-<li class="fragment">Some, like <code>layout_sidebar</code>, take specific children
+<li>Some, like <code>layout_sidebar</code>, take specific children
 <ul>
-<li class="fragment"><code>panel_sidebar</code> defines the sidebar</li>
-<li class="fragment"><code>panel_main</code> defines the main panel</li>
+<li><code>panel_sidebar</code> defines the sidebar</li>
+<li><code>panel_main</code> defines the main panel</li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 <h2>Navsets</h2>
 <ul>
-<li class="fragment">It’s common to put apps in tabs</li>
-<li class="fragment">We have a <code>navset_tab</code> function which organizes <code>ui.nav</code> containers into tabs</li>
-<li class="fragment"><code>ui.nav</code> is itself a container and allows you lay out the things on the tab</li>
+<li>It’s common to put apps in tabs</li>
+<li>We have a <code>navset_tab</code> function which organizes <code>ui.nav</code> containers into tabs</li>
+<li><code>ui.nav</code> is itself a container and allows you lay out the things on the tab</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2677,12 +2677,12 @@
 <section class="slide level2">
 <h2>Cards</h2>
 <ul>
-<li class="fragment">Cards are just small boxes which contain other elements</li>
-<li class="fragment">Useful for grouping inputs and outputs</li>
-<li class="fragment">“Dashboards” are just web apps in boxes</li>
-<li class="fragment">Currently in experimental, import with <code>import shiny.experimental as x</code></li>
-<li class="fragment">Called with <code>x.ui.card</code></li>
-<li class="fragment">Cards can take <code>x.ui.card_header</code> and <code>x.ui.card_footer</code></li>
+<li>Cards are just small boxes which contain other elements</li>
+<li>Useful for grouping inputs and outputs</li>
+<li>“Dashboards” are just web apps in boxes</li>
+<li>Currently in experimental, import with <code>import shiny.experimental as x</code></li>
+<li>Called with <code>x.ui.card</code></li>
+<li>Cards can take <code>x.ui.card_header</code> and <code>x.ui.card_footer</code></li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2735,25 +2735,25 @@
 <section class="slide level2">
 <h2>Rows and columns</h2>
 <ul>
-<li class="fragment">Sidebars, navsets and cards are all special purpose containers</li>
-<li class="fragment">What if you want to customize your layout more generally?</li>
-<li class="fragment">What about?
+<li>Sidebars, navsets and cards are all special purpose containers</li>
+<li>What if you want to customize your layout more generally?</li>
+<li>What about?
 <ul>
-<li class="fragment">Different screen sizes?</li>
-<li class="fragment">Mobile browsers?</li>
-<li class="fragment">Different zoom levels?</li>
-<li class="fragment">Nested UI containers?</li>
+<li>Different screen sizes?</li>
+<li>Mobile browsers?</li>
+<li>Different zoom levels?</li>
+<li>Nested UI containers?</li>
 </ul></li>
-<li class="fragment">What we need is a responsive way to specify the size of things</li>
-<li class="fragment">Enter the bootstrap grid</li>
+<li>What we need is a responsive way to specify the size of things</li>
+<li>Enter the bootstrap grid</li>
 </ul>
 </section>
 <section class="slide level2">
 <h2>Bootstap grid</h2>
 <ul>
-<li class="fragment">Divide the screen into rows and columns</li>
-<li class="fragment">Row height expands to fit its children</li>
-<li class="fragment">Column width is relative to its parent</li>
+<li>Divide the screen into rows and columns</li>
+<li>Row height expands to fit its children</li>
+<li>Column width is relative to its parent</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2764,19 +2764,19 @@
 <h2>Rows</h2>
 
 <img data-src="images/bootstrap_image.png" class="r-stretch"><ul>
-<li class="fragment">The shiny <code>ui.row</code> container breaks your app into rows</li>
-<li class="fragment">Rows always contain <code>ui.column</code></li>
+<li>The shiny <code>ui.row</code> container breaks your app into rows</li>
+<li>Rows always contain <code>ui.column</code></li>
 </ul>
 </section>
 <section class="slide level2">
 <h2>Columns</h2>
 
 <img data-src="images/bootstrap_image.png" class="r-stretch"><ul>
-<li class="fragment">Imagine breaking up the parent container into 12 vertical sections</li>
-<li class="fragment">Each column gets an integer <strong>width</strong> from 1-12</li>
-<li class="fragment">This defines how much of the parent the column occupies</li>
-<li class="fragment">Reacts to screen size</li>
-<li class="fragment">Why 12?</li>
+<li>Imagine breaking up the parent container into 12 vertical sections</li>
+<li>Each column gets an integer <strong>width</strong> from 1-12</li>
+<li>This defines how much of the parent the column occupies</li>
+<li>Reacts to screen size</li>
+<li>Why 12?</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2796,11 +2796,11 @@
 <section class="slide level2">
 <h2>This is getting a bit complicated</h2>
 <ul>
-<li class="fragment">UIs can start to get complicated</li>
-<li class="fragment">You can end up with deeply nested function calls</li>
-<li class="fragment">Too many brackets</li>
-<li class="fragment">Too many indents</li>
-<li class="fragment">Luckily You can break UIs into variables and compose them</li>
+<li>UIs can start to get complicated</li>
+<li>You can end up with deeply nested function calls</li>
+<li>Too many brackets</li>
+<li>Too many indents</li>
+<li>Luckily You can break UIs into variables and compose them</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2837,11 +2837,11 @@
 <section class="slide level2">
 <h2>Review: Value boxes</h2>
 <ul>
-<li class="fragment">Value boxes are another experimental layout container</li>
-<li class="fragment">Just like <code>x.ui.card()</code></li>
-<li class="fragment">Called with <code>x.ui.value_box()</code></li>
-<li class="fragment">Useful for visually highlighting important numbers or text</li>
-<li class="fragment">Usually contain <code>ui.output_text()</code> as a child element</li>
+<li>Value boxes are another experimental layout container</li>
+<li>Just like <code>x.ui.card()</code></li>
+<li>Called with <code>x.ui.value_box()</code></li>
+<li>Useful for visually highlighting important numbers or text</li>
+<li>Usually contain <code>ui.output_text()</code> as a child element</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -2851,9 +2851,9 @@
 <section class="slide level2">
 <h2>Dynamic user interfaces</h2>
 <ul>
-<li class="fragment">Guide the user along a happy path</li>
-<li class="fragment">If you don’t want them to click on something, don’t show it to them</li>
-<li class="fragment">Much better to prevent errors than to handle them</li>
+<li>Guide the user along a happy path</li>
+<li>If you don’t want them to click on something, don’t show it to them</li>
+<li>Much better to prevent errors than to handle them</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -4811,19 +4811,19 @@
 <section class="slide level2">
 <h2>Shiny Dynamic UI</h2>
 <ol type="1">
-<li class="fragment"><strong><code>render.ui</code></strong>: Generate UI elements on the server</li>
-<li class="fragment"><strong><code>ui.conditional_panel</code></strong>: Hide things on the browser</li>
-<li class="fragment"><strong><code>ui.update_*</code></strong>: Modify existing UI elements</li>
+<li><strong><code>render.ui</code></strong>: Generate UI elements on the server</li>
+<li><strong><code>ui.conditional_panel</code></strong>: Hide things on the browser</li>
+<li><strong><code>ui.update_*</code></strong>: Modify existing UI elements</li>
 </ol>
 </section>
 <section class="slide level2">
 <h2>Dynamic UI</h2>
 <ul>
-<li class="fragment">UI elements can be generated like any other element</li>
-<li class="fragment">Use <code>ui.ui_ouput()</code> in the UI object</li>
-<li class="fragment">Use <code>@render.ui</code> on the server</li>
-<li class="fragment">Function returns any <code>ui</code> element</li>
-<li class="fragment">Referred to like a regular ui element</li>
+<li>UI elements can be generated like any other element</li>
+<li>Use <code>ui.ui_ouput()</code> in the UI object</li>
+<li>Use <code>@render.ui</code> on the server</li>
+<li>Function returns any <code>ui</code> element</li>
+<li>Referred to like a regular ui element</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -4874,16 +4874,16 @@
 <section class="slide level2">
 <h2>Dynamic UI</h2>
 <ul>
-<li class="fragment">Dynamic UIs can be intimidating, but they follow a familiar pattern:
+<li>Dynamic UIs can be intimidating, but they follow a familiar pattern:
 <ul>
-<li class="fragment">Insert a UI element with <code>ui.output_ui</code></li>
-<li class="fragment">Create a rendering function which returns a UI chunk</li>
-<li class="fragment">Decorate the function with <code>@output</code> and <code>render.ui</code></li>
+<li>Insert a UI element with <code>ui.output_ui</code></li>
+<li>Create a rendering function which returns a UI chunk</li>
+<li>Decorate the function with <code>@output</code> and <code>render.ui</code></li>
 </ul></li>
-<li class="fragment">Very powerful, but
+<li>Very powerful, but
 <ul>
-<li class="fragment">Round trip to the server</li>
-<li class="fragment">You can lose session state</li>
+<li>Round trip to the server</li>
+<li>You can lose session state</li>
 </ul></li>
 </ul>
 </section>
@@ -6842,10 +6842,10 @@
 <section class="slide level2">
 <h2>Conditional panel</h2>
 <ul>
-<li class="fragment"><code>ui.panel_conditional</code> hides UI elements based on conditions</li>
-<li class="fragment">Less flexible than <code>ui.output_ui</code></li>
-<li class="fragment">Preserves input state</li>
-<li class="fragment">Doesn’t require trip to the server</li>
+<li><code>ui.panel_conditional</code> hides UI elements based on conditions</li>
+<li>Less flexible than <code>ui.output_ui</code></li>
+<li>Preserves input state</li>
+<li>Doesn’t require trip to the server</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -8826,9 +8826,9 @@
 <section class="slide level2">
 <h2>Things to note</h2>
 <ul>
-<li class="fragment">Uses JavaScript condition, not python</li>
-<li class="fragment">JavaScript condition will be the same as R, Google and chatGPT can help</li>
-<li class="fragment">You often want <code>===</code></li>
+<li>Uses JavaScript condition, not python</li>
+<li>JavaScript condition will be the same as R, Google and chatGPT can help</li>
+<li>You often want <code>===</code></li>
 </ul>
 </section>
 <section class="slide level2">
@@ -8838,10 +8838,10 @@
 <section class="slide level2">
 <h2>That’s a lot of stuff!</h2>
 <ul>
-<li class="fragment">Shiny gives you a lot of power to customize your app</li>
-<li class="fragment">Important to remember <em>that</em> you can do these things, even if you forget <em>how</em></li>
-<li class="fragment">Learning to build intuitive UIs is a journey</li>
-<li class="fragment">Ask for advice on Discord</li>
+<li>Shiny gives you a lot of power to customize your app</li>
+<li>Important to remember <em>that</em> you can do these things, even if you forget <em>how</em></li>
+<li>Learning to build intuitive UIs is a journey</li>
+<li>Ask for advice on Discord</li>
 </ul>
 
 <div class="footer footer-default">

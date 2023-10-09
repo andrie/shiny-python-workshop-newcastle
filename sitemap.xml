@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/housekeeping.html</loc>
-    <lastmod>2023-10-09T17:17:29.455Z</lastmod>
+    <lastmod>2023-10-09T19:06:19.003Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/bonus.html</loc>
-    <lastmod>2023-10-09T17:17:28.655Z</lastmod>
+    <lastmod>2023-10-09T19:06:18.175Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/getting-started-slides.html</loc>
-    <lastmod>2023-10-09T17:17:23.707Z</lastmod>
+    <lastmod>2023-10-09T19:06:13.115Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/course.html</loc>
-    <lastmod>2023-10-09T17:17:22.871Z</lastmod>
+    <lastmod>2023-10-09T19:06:12.231Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/reactivity-slides.html</loc>
-    <lastmod>2023-10-09T17:17:21.923Z</lastmod>
+    <lastmod>2023-10-09T19:06:11.327Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/4-add-plot.html</loc>
-    <lastmod>2023-10-09T17:17:21.003Z</lastmod>
+    <lastmod>2023-10-09T19:06:10.403Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/7-reactive-effects.html</loc>
-    <lastmod>2023-10-09T17:17:05.090Z</lastmod>
+    <lastmod>2023-10-09T19:05:54.987Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/12-dynamic-ui.html</loc>
-    <lastmod>2023-10-09T17:16:54.694Z</lastmod>
+    <lastmod>2023-10-09T19:05:44.471Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/13-ui-functions.html</loc>
-    <lastmod>2023-10-09T17:16:37.066Z</lastmod>
+    <lastmod>2023-10-09T19:05:27.483Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/8-navsets.html</loc>
-    <lastmod>2023-10-09T17:16:19.082Z</lastmod>
+    <lastmod>2023-10-09T19:05:10.951Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/11-value-boxes.html</loc>
-    <lastmod>2023-10-09T17:16:03.705Z</lastmod>
+    <lastmod>2023-10-09T19:04:56.551Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/14-extract-functions.html</loc>
-    <lastmod>2023-10-09T17:15:48.117Z</lastmod>
+    <lastmod>2023-10-09T19:04:41.767Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/ui-customization.html</loc>
-    <lastmod>2023-10-09T17:15:28.153Z</lastmod>
+    <lastmod>2023-10-09T19:04:24.251Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/workflow-best-practices.html</loc>
-    <lastmod>2023-10-09T17:15:08.465Z</lastmod>
+    <lastmod>2023-10-09T19:04:03.735Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/import-helpers.html</loc>
-    <lastmod>2023-10-09T17:14:50.821Z</lastmod>
+    <lastmod>2023-10-09T19:03:46.643Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/getting-started.html</loc>
-    <lastmod>2023-10-09T17:15:04.353Z</lastmod>
+    <lastmod>2023-10-09T19:03:59.887Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/slides/reactivity.html</loc>
-    <lastmod>2023-10-09T17:15:16.677Z</lastmod>
+    <lastmod>2023-10-09T19:04:12.563Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/9-cards.html</loc>
-    <lastmod>2023-10-09T17:15:38.861Z</lastmod>
+    <lastmod>2023-10-09T19:04:33.415Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/1-hello-world.html</loc>
-    <lastmod>2023-10-09T17:15:54.521Z</lastmod>
+    <lastmod>2023-10-09T19:04:47.707Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/3-add-filter.html</loc>
-    <lastmod>2023-10-09T17:16:09.981Z</lastmod>
+    <lastmod>2023-10-09T19:05:02.483Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/6-reactive-event.html</loc>
-    <lastmod>2023-10-09T17:16:25.518Z</lastmod>
+    <lastmod>2023-10-09T19:05:16.703Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/2-debug.html</loc>
-    <lastmod>2023-10-09T17:16:43.898Z</lastmod>
+    <lastmod>2023-10-09T19:05:33.667Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/5-reactivity.html</loc>
-    <lastmod>2023-10-09T17:16:58.682Z</lastmod>
+    <lastmod>2023-10-09T19:05:48.699Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/exercises/10-layout.html</loc>
-    <lastmod>2023-10-09T17:17:16.139Z</lastmod>
+    <lastmod>2023-10-09T19:06:05.819Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/index.html</loc>
-    <lastmod>2023-10-09T17:17:21.471Z</lastmod>
+    <lastmod>2023-10-09T19:06:10.863Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/best-practices-slides.html</loc>
-    <lastmod>2023-10-09T17:17:22.391Z</lastmod>
+    <lastmod>2023-10-09T19:06:11.775Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/references.html</loc>
-    <lastmod>2023-10-09T17:17:23.271Z</lastmod>
+    <lastmod>2023-10-09T19:06:12.631Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/pre-requisites.html</loc>
-    <lastmod>2023-10-09T17:17:28.263Z</lastmod>
+    <lastmod>2023-10-09T19:06:17.767Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/andrie/shiny-python-workshop-newcastle/docs/ui-customization-slides.html</loc>
-    <lastmod>2023-10-09T17:17:29.055Z</lastmod>
+    <lastmod>2023-10-09T19:06:18.579Z</lastmod>
   </url>
 </urlset>

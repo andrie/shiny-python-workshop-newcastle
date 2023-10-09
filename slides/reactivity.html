@@ -13,6 +13,7 @@
 <script src="../site_libs/quarto-contrib/shinylive-0.2.1/shinylive/run-python-blocks.js" type="module"></script>
 <link href="../site_libs/quarto-contrib/shinylive-0.2.1/shinylive/shinylive.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/posit_slides/posit-slides.js"></script><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
@@ -408,16 +409,34 @@
 
 </section>
 <section>
-<section class="title-slide slide level1">
+<section class="title-slide slide level1 agenda-slide">
 <h1>Reactivity overview</h1>
-
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ul>
+<li><div class="agenda-active">
+<p>Reactivity overview</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Reactive calculations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Overriding reactivity</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Side effects</p>
+</div></li>
+</ul>
+</div>
 </section>
 <section id="how-did-shiny-do-that" class="slide level2">
 <h2>How did Shiny do that?</h2>
 <div class="sourceCode" id="cb1" data-engine="python"><pre class="sourceCode numberSource shinylive-python number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>#| standalone: true</span>
 <span id="cb1-2"><a href="#cb1-2"></a>#| components: [viewer]</span>
 <span id="cb1-3"><a href="#cb1-3"></a>#| layout: horizontal</span>
-<span id="cb1-4"><a href="#cb1-4"></a>#| viewerHeight: 500</span>
+<span id="cb1-4"><a href="#cb1-4"></a>#| viewerHeight: 650</span>
 <span id="cb1-5"><a href="#cb1-5"></a>from shiny import App, render, ui</span>
 <span id="cb1-6"><a href="#cb1-6"></a>import pandas as pd</span>
 <span id="cb1-7"><a href="#cb1-7"></a>from pathlib import Path</span>
@@ -866,49 +885,58 @@
 <section id="how-did-shiny-do-that-1" class="slide level2">
 <h2>How did Shiny do that?</h2>
 <ul>
-<li class="fragment">We told Shiny <em>what</em> to do</li>
-<li class="fragment">We didn’t tell Shiny <em>when</em> to do it</li>
+<li>We told Shiny <em>what</em> to do</li>
+<li>We didn’t tell Shiny <em>when</em> to do it</li>
 </ul>
 </section>
 <section id="how-do-other-frameworks-work" class="slide level2">
 <h2>How do other frameworks work?</h2>
 <ul>
-<li class="fragment">Streamlit: re-render everything everywhere all the time</li>
-<li class="fragment">Dash/Panel/Gradio: Define callback functions</li>
+<li>Streamlit
+<ul>
+<li>re-render everything everywhere all the time</li>
+</ul></li>
+<li>Dash/Panel/Gradio
+<ul>
+<li>Define callback functions</li>
+</ul></li>
 </ul>
 </section>
 <section id="event-driven-programming" class="slide level2">
 <h2>Event driven programming</h2>
 <ul>
-<li class="fragment">You have to do it</li>
-<li class="fragment">Easy to get wrong</li>
-<li class="fragment">Hard to tell when you’ve gotten it wrong</li>
+<li>You have to do it</li>
+<li>Easy to get wrong</li>
+<li>Hard to tell when you’ve gotten it wrong</li>
 </ul>
 </section>
 <section id="whats-a-better-way" class="slide level2">
 <h2>What’s a better way?</h2>
 <div class="v-center-container">
 <ul>
-<li class="fragment">Infer the relationships between components</li>
-<li class="fragment">Build a computation graph</li>
+<li>Infer the relationships between components</li>
+<li>Build a computation graph</li>
 </ul>
 </div>
 </section>
 <section id="does-that-really-work" class="slide level2">
 <h2>Does that really work?</h2>
 <ul>
-<li class="fragment">You’re not wrong to find this suspicious</li>
-<li class="fragment">“Does Shiny infer relationships by analyizing the source code?” No–lots of ways that would break down!</li>
-<li class="fragment">For this to work, the inference has to be 100% reliable</li>
+<li>You’re not wrong to find this suspicious</li>
+<li>“Does Shiny infer relationships by analyizing the source code?”
+<ul>
+<li>No – lots of ways that would break down!</li>
+</ul></li>
+<li>For this to work, the inference has to be 100% reliable</li>
 </ul>
 </section>
 <section id="it-really-works" class="slide level2">
 <h2>It really works</h2>
 <ul>
-<li class="fragment">We have 10 years of real-world experience with this form of reactivity</li>
-<li class="fragment">The underlying mechanism is simple, reliable, and intuitive</li>
-<li class="fragment">Not static analysis, but rather, runtime tracing</li>
-<li class="fragment">Originally inspired by Meteor.js</li>
+<li>We have 10 years of real-world experience with this form of reactivity</li>
+<li>The underlying mechanism is simple, reliable, and intuitive</li>
+<li>Not static analysis, but rather, runtime tracing</li>
+<li>Originally inspired by <code>Meteor.js</code></li>
 </ul>
 </section>
 <section id="outputs-and-recipes" class="slide level2">
@@ -980,9 +1008,9 @@
 <section id="declarative-programming" class="slide level2">
 <h2>Declarative programming</h2>
 <ul>
-<li class="fragment">Tell Shiny how each output should be filled</li>
-<li class="fragment">Trust that the framework will keep everything up-to-date</li>
-<li class="fragment">You’re setting the menu, not doing the cooking</li>
+<li>Tell Shiny how each output should be filled</li>
+<li>Trust that the framework will keep everything up-to-date</li>
+<li>You’re setting the menu, not doing the cooking</li>
 </ul>
 </section>
 <section id="event-driven-programming-1" class="slide level2">
@@ -1820,24 +1848,42 @@
 <section id="reactivity-scales" class="slide level2">
 <h2>Reactivity scales</h2>
 <ul>
-<li class="fragment">Every Shiny app uses this pattern</li>
-<li class="fragment">Works for dynamic UIs</li>
-<li class="fragment">Shiny is lazy</li>
+<li>Every Shiny app uses this pattern</li>
+<li>Works for dynamic UIs</li>
+<li>Shiny is lazy</li>
 </ul>
 </section></section>
 <section>
-<section class="title-slide slide level1">
+<section class="title-slide slide level1 agenda-slide">
 <h1>Reactive calculations</h1>
-
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Reactivity overview</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Reactive calculations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Overriding reactivity</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Side effects</p>
+</div></li>
+</ul>
+</div>
 </section>
 <section id="saving-and-reusing-calculated-values" class="slide level2">
 <h2>Saving and reusing calculated values</h2>
 <ul>
-<li class="fragment">So far we’ve been working with shallow reactive graphs</li>
-<li class="fragment">Each input is passed to a rendering function which produces an output</li>
-<li class="fragment">Input -&gt; Recipe -&gt; Output can produce repetitive, inefficient applications</li>
-<li class="fragment"><code>@reactive.Calc</code> creates calculations whose results can be used by one <em>or more</em> outputs</li>
-<li class="fragment">This adds intermediate nodes to the reactive graph</li>
+<li>So far we’ve been working with shallow reactive graphs</li>
+<li>Each input is passed to a rendering function which produces an output</li>
+<li>Input -&gt; Recipe -&gt; Output can produce repetitive, inefficient applications</li>
+<li><code>@reactive.Calc</code> creates calculations whose results can be used by one <em>or more</em> outputs</li>
+<li>This adds intermediate nodes to the reactive graph</li>
 </ul>
 </section>
 <section id="reactive-calc-example" class="slide level2">
@@ -1905,9 +1951,9 @@
 <section id="problems-with-repetition" class="slide level2">
 <h2>Problems with repetition</h2>
 <ol type="1">
-<li class="fragment">Code is in multiple places</li>
-<li class="fragment">The app is taking the sample twice</li>
-<li class="fragment">The table and graph are not using the same sample!</li>
+<li>Code is in multiple places</li>
+<li>The app is taking the sample twice</li>
+<li>The table and graph are not using the same sample!</li>
 </ol>
 </section>
 <section id="reactive-calculation-to-the-rescue" class="slide level2">
@@ -1935,14 +1981,14 @@
 <section id="reactive-calculations-1" class="slide level2">
 <h2>Reactive calculations</h2>
 <ul>
-<li class="fragment">Defined with the <code>@reactive.Calc</code> decorator</li>
-<li class="fragment">Called like other inputs</li>
-<li class="fragment">Can read inputs, reactive values, or other reactive calculations</li>
-<li class="fragment">Caches its value, so it’s cheap to call repeatedly</li>
-<li class="fragment">Adds a node to the reactive graph
+<li>Defined with the <code>@reactive.Calc</code> decorator</li>
+<li>Called like other inputs</li>
+<li>Can read inputs, reactive values, or other reactive calculations</li>
+<li>Caches its value, so it’s cheap to call repeatedly</li>
+<li>Adds a node to the reactive graph
 <ul>
-<li class="fragment">Discards cached value when upstream nodes invalidate</li>
-<li class="fragment">Notifies downstream nodes when it invalidates</li>
+<li>Discards cached value when upstream nodes invalidate</li>
+<li>Notifies downstream nodes when it invalidates</li>
 </ul></li>
 </ul>
 </section>
@@ -2337,18 +2383,37 @@
 </div>
 </section></section>
 <section>
-<section class="title-slide slide level1">
+<section class="title-slide slide level1 agenda-slide">
 <h1>Overriding reactivity</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
 <ul>
-<li class="fragment">By default, when an input changes, any outputs that use it will recalculate</li>
-<li class="fragment">This isn’t always the user interaction you want
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Reactivity overview</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Reactive calculations</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Overriding reactivity</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Side effects</p>
+</div></li>
+</ul>
+</div>
 <ul>
-<li class="fragment">Database queries</li>
-<li class="fragment">Expensive modeling</li>
-<li class="fragment">Grouping multiple filters together</li>
-<li class="fragment">Side effects</li>
+<li>By default, when an input changes, any outputs that use it will recalculate</li>
+<li>This isn’t always the user interaction you want
+<ul>
+<li>Database queries</li>
+<li>Expensive modeling</li>
+<li>Grouping multiple filters together</li>
+<li>Side effects</li>
 </ul></li>
-<li class="fragment">Use <code>reactive.event</code> to explicitly specify what should trigger recalculation for an output or calc</li>
+<li>Use <code>reactive.event</code> to explicitly specify what should trigger recalculation for an output or calc</li>
 </ul>
 </section>
 <section id="example" class="slide level2">
@@ -2387,10 +2452,10 @@
 <span id="cb9-4"><a href="#cb9-4"></a><span class="kw">def</span> txt():</span>
 <span id="cb9-5"><a href="#cb9-5"></a>  <span class="cf">return</span> <span class="st">"Here is my text"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li class="fragment"><code>@reactive.event</code> overrides the usual <em>implicit</em> dependency detection with an <em>explicit</em> trigger</li>
-<li class="fragment">It can be applied to rendering functions or to <code>@reactive.Calc</code></li>
-<li class="fragment">It tells Shiny to invalidate the object whenever or more inputs change</li>
-<li class="fragment"><code>@reactive.event</code> is often used with action buttons or action links</li>
+<li><code>@reactive.event</code> overrides the usual <em>implicit</em> dependency detection with an <em>explicit</em> trigger</li>
+<li>It can be applied to rendering functions or to <code>@reactive.Calc</code></li>
+<li>It tells Shiny to invalidate the object whenever or more inputs change</li>
+<li><code>@reactive.event</code> is often used with action buttons or action links</li>
 </ul>
 </section>
 <section id="your-turn-2" class="slide level2">
@@ -2398,24 +2463,42 @@
 <p>Go to <a href="../exercises/6-reactive-event.html">exercises/6-reactive-event</a> or run <code>apps/problem-sets/2-reactivity/2.3-reactive-event</code> locally.</p>
 </section></section>
 <section>
-<section class="title-slide slide level1">
+<section class="title-slide slide level1 agenda-slide">
 <h1>Side effects</h1>
-
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Reactivity overview</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Reactive calculations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Overriding reactivity</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Side effects</p>
+</div></li>
+</ul>
+</div>
 </section>
 <section id="what-weve-learned" class="slide level2">
 <h2>What we’ve learned</h2>
 <ul>
-<li class="fragment">How Shiny re-renders elements</li>
-<li class="fragment">How Shiny detects dependencies between elements (inputs and outputs)</li>
-<li class="fragment">How to create reusable calculations with <code>@reactive.Calc</code></li>
-<li class="fragment">How to explicitly control reactivity with <code>@reactive.event</code></li>
+<li>How Shiny re-renders elements</li>
+<li>How Shiny detects dependencies between elements (inputs and outputs)</li>
+<li>How to create reusable calculations with <code>@reactive.Calc</code></li>
+<li>How to explicitly control reactivity with <code>@reactive.event</code></li>
 </ul>
 </section>
 <section id="is-that-enough" class="slide level2">
 <h2>Is that enough?</h2>
 <ul>
-<li class="fragment">Shiny has a function <code>ui.show_modal</code> which triggers a modal window.</li>
-<li class="fragment">Using what you know so far, how would you call this function?</li>
+<li>Shiny has a function <code>ui.show_modal</code> which triggers a modal window.</li>
+<li>Using what you know so far, how would you call this function?</li>
 </ul>
 <div class="sourceCode" id="cb10" data-engine="python"><pre class="sourceCode numberSource shinylive-python number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a href="#cb10-1"></a>#| standalone: true</span>
 <span id="cb10-2"><a href="#cb10-2"></a>#| components: [viewer]</span>
@@ -2446,19 +2529,19 @@
 <section id="return-values-vs.-side-effects" class="slide level2">
 <h2>Return values vs.&nbsp;side effects</h2>
 <ul>
-<li class="fragment">Inputs, outputs, and calculations all produce values</li>
-<li class="fragment">When an input value changes, downstream calculations and outputs might need to have their values updated as well</li>
-<li class="fragment">But sometimes we want to execute some code that doesn’t produce a value
+<li>Inputs, outputs, and calculations all produce values</li>
+<li>When an input value changes, downstream calculations and outputs might need to have their values updated as well</li>
+<li>But sometimes we want to execute some code that doesn’t produce a value
 <ul>
-<li class="fragment">Doesn’t fit in the categories of “calculation” or “output”</li>
+<li>Doesn’t fit in the categories of “calculation” or “output”</li>
 </ul></li>
 </ul>
 </section>
 <section id="reactive-effects" class="slide level2">
 <h2>Reactive Effects</h2>
 <ul>
-<li class="fragment">The <code>@reactive.Effect</code> decorator allows you to react to an input without returning a value</li>
-<li class="fragment">Usually paired with <code>@reactive.event</code></li>
+<li>The <code>@reactive.Effect</code> decorator allows you to react to an input without returning a value</li>
+<li>Usually paired with <code>@reactive.event</code></li>
 </ul>
 <div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a><span class="at">@reactive.Effect</span></span>
 <span id="cb11-2"><a href="#cb11-2"></a><span class="at">@reactive.event</span>(<span class="bu">input</span>.show)</span>
@@ -2474,9 +2557,9 @@
 <section id="the-rule" class="slide level2">
 <h2>The rule</h2>
 <ul>
-<li class="fragment">Code that produces an output: <code>@output</code> + <code>@render.*</code></li>
-<li class="fragment">Code that produces an intermediate value: <code>@reactive.Calc</code></li>
-<li class="fragment"><strong>Code that produces only side effects: <code>@reactive.Effect</code></strong></li>
+<li>Code that produces an output: <code>@output</code> + <code>@render.*</code></li>
+<li>Code that produces an intermediate value: <code>@reactive.Calc</code></li>
+<li><strong>Code that produces only side effects: <code>@reactive.Effect</code></strong></li>
 </ul>
 <div class="fragment">
 <div>
@@ -2566,9 +2649,9 @@
 <section id="whats-a-side-effect-1" class="slide level2">
 <h2>What’s a side effect?</h2>
 <ul>
-<li class="fragment">Somewhat context dependent</li>
-<li class="fragment">Multiple strategies can work</li>
-<li class="fragment">If your solution feels complicated and painful, ask whether you should use the other strategy</li>
+<li>Somewhat context dependent</li>
+<li>Multiple strategies can work</li>
+<li>If your solution feels complicated and painful, ask whether you should use the other strategy</li>
 </ul>
 </section>
 <section id="your-turn-3" class="slide level2">
