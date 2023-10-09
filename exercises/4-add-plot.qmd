@@ -3,7 +3,7 @@ title: "Add a plot"
 ---
 
 ```{python}
-## | echo: false
+# | echo: false
 import os
 
 os.chdir("..")
@@ -19,8 +19,8 @@ def gs_problems(file):
 ## Exercise 1.210 
 
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 gs_problems("1.10-add-plot")
 ```

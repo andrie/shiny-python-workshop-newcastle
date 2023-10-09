@@ -5,3 +5,4 @@ _old/
 _site/
 .luarc.json
 __pycache__
+site_libs/

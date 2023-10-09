@@ -3,7 +3,7 @@ title: "Debugging rendering"
 ---
 
 ```{python}
-## | echo: false
+# | echo: false
 import os
 
 os.chdir("..")
@@ -18,8 +18,8 @@ def gs_problems(file):
 
 ## Exercise 1.1 - Add a data frame
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 problem_tabs("apps/problem-sets/1-getting-started/1.1-data-frame")
 ```
@@ -27,8 +27,8 @@ problem_tabs("apps/problem-sets/1-getting-started/1.1-data-frame")
 ## Exercise 1.2 - Debug
 
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 gs_problems("1.2-debug")
 ```
@@ -37,24 +37,24 @@ gs_problems("1.2-debug")
 
 ## Exercise 1.3 - Debug
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 gs_problems("1.3-debug")
 ```
 
 ## Exercise 1.4 - Debug
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 gs_problems("1.4-debug")
 ```
 
 ## Exercise 1.5 - Debug
 ```{python}
-## | echo: false
-## | output: asis
+# | echo: false
+# | output: asis
 
 gs_problems("1.5-debug")
 ```
