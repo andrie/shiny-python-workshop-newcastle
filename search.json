@@ -21,6 +21,13 @@
     "text": "Don’t be alarmed!\n\nWe’ll have coffee breaks!"
   },
   {
+    "objectID": "docs/bonus.html",
+    "href": "docs/bonus.html",
+    "title": "Bonus Material",
+    "section": "",
+    "text": "This section contains bonus material that is not part of the main course.\nThese pages and exercises were part of the original one-day course.\nFor the core material, see Course material"
+  },
+  {
     "objectID": "docs/getting-started-slides.html",
     "href": "docs/getting-started-slides.html",
     "title": "Getting started",
@@ -39,14 +46,14 @@
     "href": "docs/course.html",
     "title": "Course material",
     "section": "",
-    "text": "Slides\nExercises"
+    "text": "This course covers an introduction to basic concepts for Shiny for Python."
   },
   {
     "objectID": "docs/course.html#getting-started",
     "href": "docs/course.html#getting-started",
     "title": "Course material",
-    "section": "",
-    "text": "Slides\nExercises"
+    "section": "Getting started",
+    "text": "Getting started\n\nSlides\nExercises"
   },
   {
     "objectID": "docs/course.html#reactivity",
@@ -54,6 +61,13 @@
     "title": "Course material",
     "section": "Reactivity",
     "text": "Reactivity\n\nSlides\nExercises"
+  },
+  {
+    "objectID": "docs/course.html#bonus-material",
+    "href": "docs/course.html#bonus-material",
+    "title": "Course material",
+    "section": "Bonus material",
+    "text": "Bonus material\nFor extra material that we won’t cover in this workshop, please see Bonus material."
   },
   {
     "objectID": "docs/reactivity-slides.html",
@@ -280,6 +294,27 @@
     "text": "foo!"
   },
   {
+    "objectID": "slides/getting-started.html#goals-of-session-1",
+    "href": "slides/getting-started.html#goals-of-session-1",
+    "title": "Getting Started",
+    "section": "Goals of Session 1",
+    "text": "Goals of Session 1\n\nUnderstand the mechanics of a Shiny app (what to do, not why you do it)\nDevelop comfort with failure and debugging\nYou know where to go for help"
+  },
+  {
+    "objectID": "slides/getting-started.html#how-this-session-works",
+    "href": "slides/getting-started.html#how-this-session-works",
+    "title": "Getting Started",
+    "section": "How this session works",
+    "text": "How this session works\n\nThis session is going to be exercise based\nAll of the exercises and slides are running live on the website\nYou can do them on the website or open the apps in the apps/problem-sets folder\nIf you need help, put a red sticker on your laptop; when you’re done, put up a green sticker"
+  },
+  {
+    "objectID": "slides/getting-started.html#testing-your-setup",
+    "href": "slides/getting-started.html#testing-your-setup",
+    "title": "Getting Started",
+    "section": "Testing your setup",
+    "text": "Testing your setup\n\nIn a terminal, type shiny create my-app\nOpen my-app/app.py\nClick the “Run app” button in the top right of VS Code (screenshot)\nIf your local setup doesn’t work, switch to Posit Workbench and try again"
+  },
+  {
     "objectID": "slides/getting-started.html#whats-a-shiny-app",
     "href": "slides/getting-started.html#whats-a-shiny-app",
     "title": "Getting Started",
@@ -399,8 +434,8 @@
     "text": "Your turn\nGo to exercises/3-add-filter or work through exercises 1.6-1.9 locally."
   },
   {
-    "objectID": "slides/getting-started.html#recap",
-    "href": "slides/getting-started.html#recap",
+    "objectID": "slides/getting-started.html#recap-1",
+    "href": "slides/getting-started.html#recap-1",
     "title": "Getting Started",
     "section": "Recap",
     "text": "Recap\nMost Shiny app development consists of variations of these three things:\n\nAdd UI elements\nAdd rendering functions\nConnect inputs and outputs"
@@ -1138,14 +1173,28 @@
     "href": "docs/references.html",
     "title": "Reference material",
     "section": "",
-    "text": "Shiny for Python cheatsheet (PDF)\nOpiniated python setup guide\nShiny for Python website\nShinylive for Python"
+    "text": "Shiny for Python website\nShiny for Python cheatsheet (PDF)\nShinylive for Python"
   },
   {
-    "objectID": "docs/references.html#links",
-    "href": "docs/references.html#links",
+    "objectID": "docs/references.html#shiny-for-python",
+    "href": "docs/references.html#shiny-for-python",
     "title": "Reference material",
     "section": "",
-    "text": "Shiny for Python cheatsheet (PDF)\nOpiniated python setup guide\nShiny for Python website\nShinylive for Python"
+    "text": "Shiny for Python website\nShiny for Python cheatsheet (PDF)\nShinylive for Python"
+  },
+  {
+    "objectID": "docs/references.html#python",
+    "href": "docs/references.html#python",
+    "title": "Reference material",
+    "section": "Python",
+    "text": "Python\n\nOpiniated python setup guide"
+  },
+  {
+    "objectID": "docs/references.html#vs-code",
+    "href": "docs/references.html#vs-code",
+    "title": "Reference material",
+    "section": "VS Code",
+    "text": "VS Code\n\nsVS-Code documentation"
   },
   {
     "objectID": "docs/pre-requisites.html",

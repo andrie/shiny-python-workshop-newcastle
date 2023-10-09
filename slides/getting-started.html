@@ -101,6 +101,7 @@
     code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="styles.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -403,24 +404,29 @@
 </div>
 
 </section>
-<section class="slide level2">
+<section>
+<section class="title-slide slide level1">
+<h1>Setup</h1>
+
+</section>
+<section id="goals-of-session-1" class="slide level2">
 <h2>Goals of Session 1</h2>
 <ol type="1">
-<li>Understand the mechanics of a Shiny app (what to do, not why you do it)</li>
-<li>Develop comfort with failure and debugging</li>
-<li>You know where to go for help</li>
+<li><p>Understand the mechanics of a Shiny app (what to do, not why you do it)</p></li>
+<li><p>Develop comfort with failure and debugging</p></li>
+<li><p>You know where to go for help</p></li>
 </ol>
 </section>
-<section class="slide level2">
+<section id="how-this-session-works" class="slide level2">
 <h2>How this session works</h2>
 <ul>
 <li>This session is going to be exercise based</li>
-<li>All of the exercises and slides are running live on the <a href="https://posit-dev.github.io/shiny-python-workshop-2023/">website</a></li>
+<li>All of the exercises and slides are running live on the <a href="https://andrie.github.io/shiny-python-workshop-newcastle/docs/pre-requisites.html">website</a></li>
 <li>You can do them on the website or open the apps in the <code>apps/problem-sets</code> folder</li>
 <li>If you need help, put a red sticker on your laptop; when you’re done, put up a green sticker</li>
 </ul>
 </section>
-<section class="slide level2">
+<section id="testing-your-setup" class="slide level2">
 <h2>Testing your setup</h2>
 <ol type="1">
 <li>In a terminal, type <code>shiny create my-app</code></li>
@@ -428,20 +434,7 @@
 <li>Click the “Run app” button in the top right of VS Code (<a href="https://camo.githubusercontent.com/5d947e6dff7d74fd1cf221e79583105c42e4986ae673ce79733ce5edbfdcdda5/68747470733a2f2f7368696e792e7273747564696f2e636f6d2f70792f646f63732f6173736574732f7673636f64652e706e67">screenshot</a>)</li>
 <li>If your local setup doesn’t work, switch to Posit Workbench and try again</li>
 </ol>
-</section>
-<section class="slide level2">
-<h2>Posit workbench information</h2>
-<div>
-<ol type="1">
-<li>Go to https://colorado.posit.co/rsc/class/</li>
-<li>Enter identifier “shinypython”</li>
-<li>Copy the url and credentials somewhere on your computer</li>
-<li>Login to workbench</li>
-<li>Clone the repo <code>git clone https://github.com/posit-dev/shiny-python-workshop-2023.git</code></li>
-<li>Open the workshop folder in VS Code</li>
-</ol>
-</div>
-</section>
+</section></section>
 <section>
 <section class="title-slide slide level1">
 <h1>Hello Shiny</h1>
@@ -955,6 +948,11 @@
 <span id="cb4-14"><a href="#cb4-14"></a></span>
 <span id="cb4-15"><a href="#cb4-15"></a></span>
 <span id="cb4-16"><a href="#cb4-16"></a>app <span class="op">=</span> App(app_ui, server)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section class="title-slide slide level1">
+<h1>The user interface</h1>
+
 </section>
 <section id="ui-functions" class="slide level2">
 <h2>UI functions</h2>
@@ -969,6 +967,11 @@
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
 <p>Go to <a href="../exercises/1-hello-world.html">exercises/1-hello-world</a> or run <code>apps/problem-sets/1-getting-started/1.0-hello-world</code> locally.</p>
+</section></section>
+<section>
+<section class="title-slide slide level1">
+<h1>The server</h1>
+
 </section>
 <section id="server-function" class="slide level2">
 <h2>Server function</h2>
@@ -1054,8 +1057,13 @@
 <section id="your-turn-2" class="slide level2">
 <h2>Your turn</h2>
 <p>Go to <a href="../exercises/3-add-filter.html">exercises/3-add-filter</a> or work through exercises 1.6-1.9 locally.</p>
+</section></section>
+<section>
+<section class="title-slide slide level1">
+<h1>Recap</h1>
+
 </section>
-<section id="recap" class="slide level2">
+<section id="recap-1" class="slide level2">
 <h2>Recap</h2>
 <p>Most Shiny app development consists of variations of these three things:</p>
 <ol type="1">
