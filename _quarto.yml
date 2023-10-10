@@ -30,6 +30,9 @@ website:
       collapse-level: 4
       contents:
         - docs/course.qmd
+        - section: "Housekeeping"
+          contents:
+            - docs/housekeeping.qmd
         - section: "Getting Started"
           contents:
             - href: docs/getting-started-slides.qmd
@@ -49,6 +52,9 @@ website:
               - exercises/5-reactivity.qmd
               - exercises/6-reactive-event.qmd
               - exercises/7-reactive-effects.qmd
+        - section: "Wrap-up"
+          contents:
+            - docs/wrapup.qmd
 
     - title: "Bonus Material"
       collapse-level: 3
