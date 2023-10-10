@@ -24,6 +24,14 @@ auto-agenda:
   heading: Agenda
 ---
 
+<script>
+  // open all links in parent of iframe
+  docs=document.querySelectorAll("a");
+  for(i=0; i < docs.length; i++)
+  {
+    docs[i].setAttribute("target","_parent");
+  }
+</script>
 
 ```{python}
 # | echo: false

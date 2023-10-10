@@ -8,7 +8,8 @@ title: Housekeeping
 | Start | End   | Title                         |
 |-------|-------|-------------------------------|
 | 13:30 | 15:00 | Getting started with Shiny    |
-| 15:00 | 16:30 | Reactivity                    |
+| 15:00 | 15:30 | Coffee                        |
+| 15:30 | 16:30 | Reactivity                    |
 | 16:30 | 17:00 | Q&A                           |
 
 ## Don't be alarmed!

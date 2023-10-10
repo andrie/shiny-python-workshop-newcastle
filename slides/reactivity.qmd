@@ -23,6 +23,15 @@ auto-agenda:
   heading: Agenda
 ---
 
+<script>
+  // open all links in parent of iframe
+  docs=document.querySelectorAll("a");
+  for(i=0; i < docs.length; i++)
+  {
+    docs[i].setAttribute("target","_parent");
+  }
+</script>
+
 ```{python}
 # | echo: false
 import os
@@ -691,7 +700,8 @@ flowchart TD
 
 ## Your turn
 
-Go to [exercises/5-reactivity](../exercises/5-reactivity.html) or run `apps/problem-sets/exercises/5-reactivity` locally.
+Go to [exercises/5-reactivity](../exercises/5-reactivity.html) or run `apps/problem-sets/2-reactivity/2.2-reactive-calc` locally.
+
 
 
 ## Exercise 2.3 answer 
@@ -707,6 +717,8 @@ flowchart TD
 ```
 
 # Overriding reactivity
+
+## Overriding reactivity
 
 - By default, when an input changes, any outputs that use it will recalculate
 - This isn't always the user interaction you want

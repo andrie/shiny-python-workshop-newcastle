@@ -16,7 +16,7 @@ def gs_problems(file):
 
 ```
 
-## Exercise 1.210 
+## Exercise 1.10 
 
 ```{python}
 # | echo: false
