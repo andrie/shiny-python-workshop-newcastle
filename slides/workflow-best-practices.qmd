@@ -18,6 +18,10 @@ format:
     filters:
       - positconfslides
     css: styles.css
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  heading: Agenda
 ---
 
 ```{python}
@@ -28,6 +32,8 @@ os.chdir("..")
 from helpers import problem_tabs, include_shiny_folder, Quiz, multiple_choice_app
 
 ```
+
+# Overview
 
 ## Goals
 
@@ -74,7 +80,7 @@ from helpers import problem_tabs, include_shiny_folder, Quiz, multiple_choice_ap
 <br><br>
 
 :::{.large}
-Data scientists forget funcitons when writing Shiny UIs
+Data scientists forget functions when writing Shiny UIs
 :::
 
 ## UI elements are just values
