@@ -408,6 +408,17 @@
 </div>
 
 </section>
+<section class="slide level2">
+
+<script>
+  // open all links in parent of iframe
+  docs=document.querySelectorAll("a");
+  for(i=0; i < docs.length; i++)
+  {
+    docs[i].setAttribute("target","_parent");
+  }
+</script>
+</section>
 <section>
 <section class="title-slide slide level1 agenda-slide">
 <h1>Reactivity overview</h1>
@@ -2360,7 +2371,7 @@
 </section>
 <section id="your-turn-1" class="slide level2">
 <h2>Your turn</h2>
-<p>Go to <a href="../exercises/5-reactivity.html">exercises/5-reactivity</a> or run <code>apps/problem-sets/exercises/5-reactivity</code> locally.</p>
+<p>Go to <a href="../exercises/5-reactivity.html">exercises/5-reactivity</a> or run <code>apps/problem-sets/2-reactivity/2.2-reactive-calc</code> locally.</p>
 </section>
 <section id="exercise-2.3-answer" class="slide level2">
 <h2>Exercise 2.3 answer</h2>
@@ -2404,6 +2415,9 @@
 </div></li>
 </ul>
 </div>
+</section>
+<section id="overriding-reactivity-1" class="slide level2">
+<h2>Overriding reactivity</h2>
 <ul>
 <li>By default, when an input changes, any outputs that use it will recalculate</li>
 <li>This isn’t always the user interaction you want
@@ -2442,7 +2456,7 @@
 <span id="cb8-22"><a href="#cb8-22"></a>app = App(app_ui, server)</span>
 <span id="cb8-23"><a href="#cb8-23"></a></span>
 <span id="cb8-24"><a href="#cb8-24"></a>## file: README</span>
-<span id="cb8-25"><a href="#cb8-25"></a>Add an `input.action_button` to the app, and use `@reactive.event` to prevent the text from printing until the user presses the button.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-25"><a href="#cb8-25"></a>Add an `input_action_button` to the app, and use `@reactive.event` to prevent the text from printing until the user presses the button.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="reactive.event" class="slide level2">
 <h2>reactive.event</h2>

@@ -405,6 +405,17 @@
 </div>
 
 </section>
+<section class="slide level2">
+
+<script>
+  // open all links in parent of iframe
+  docs=document.querySelectorAll("a");
+  for(i=0; i < docs.length; i++)
+  {
+    docs[i].setAttribute("target","_parent");
+  }
+</script>
+</section>
 <section>
 <section class="title-slide slide level1 agenda-slide">
 <h1>Setup</h1>
